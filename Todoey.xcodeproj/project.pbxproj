@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77256B4B21D440CB00F2D44D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77256B4A21D440CB00F2D44D /* Item.swift */; };
+		77256B4D21D440EC00F2D44D /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77256B4C21D440EC00F2D44D /* Category.swift */; };
 		773616D121CDC81200DEAF46 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773616D021CDC81200DEAF46 /* CategoryViewController.swift */; };
-		77D1747721C483D000D47950 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 77D1747521C483D000D47950 /* DataModel.xcdatamodeld */; };
 		77ED8D6C21A9E83A005270CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ED8D6B21A9E83A005270CB /* AppDelegate.swift */; };
 		77ED8D6E21A9E83A005270CB /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ED8D6D21A9E83A005270CB /* TodoListViewController.swift */; };
 		77ED8D7121A9E83A005270CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77ED8D6F21A9E83A005270CB /* Main.storyboard */; };
@@ -19,8 +20,9 @@
 
 /* Begin PBXFileReference section */
 		0D8FBF79570B9D6CB912A5DD /* Pods_Todoey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Todoey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77256B4A21D440CB00F2D44D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		77256B4C21D440EC00F2D44D /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		773616D021CDC81200DEAF46 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
-		77D1747621C483D000D47950 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		77ED8D6821A9E83A005270CB /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77ED8D6B21A9E83A005270CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77ED8D6D21A9E83A005270CB /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
@@ -86,7 +88,8 @@
 		77ED8D7F21AB3B0C005270CB /* Data Model */ = {
 			isa = PBXGroup;
 			children = (
-				77D1747521C483D000D47950 /* DataModel.xcdatamodeld */,
+				77256B4C21D440EC00F2D44D /* Category.swift */,
+				77256B4A21D440CB00F2D44D /* Item.swift */,
 			);
 			path = "Data Model";
 			sourceTree = "<group>";
@@ -248,10 +251,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77256B4B21D440CB00F2D44D /* Item.swift in Sources */,
 				773616D121CDC81200DEAF46 /* CategoryViewController.swift in Sources */,
 				77ED8D6E21A9E83A005270CB /* TodoListViewController.swift in Sources */,
-				77D1747721C483D000D47950 /* DataModel.xcdatamodeld in Sources */,
 				77ED8D6C21A9E83A005270CB /* AppDelegate.swift in Sources */,
+				77256B4D21D440EC00F2D44D /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,19 +457,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		77D1747521C483D000D47950 /* DataModel.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				77D1747621C483D000D47950 /* DataModel.xcdatamodel */,
-			);
-			currentVersion = 77D1747621C483D000D47950 /* DataModel.xcdatamodel */;
-			path = DataModel.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 77ED8D6021A9E83A005270CB /* Project object */;
 }
